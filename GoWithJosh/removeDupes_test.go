@@ -18,6 +18,7 @@ func ExpectedOutcomeTest(t *testing.T) {
 			t.Errorf("got %q, wanted %q", got[intiger], expected[intiger])
 		}
 	}
+	//verifies size
 	if size != len(expected) {
 		t.Errorf("length of array didn't match expected length")
 	}

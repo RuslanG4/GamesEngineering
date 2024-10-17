@@ -121,5 +121,4 @@ func main() {
 	}
 
 	fmt.Printf("len=%d %v\n", newArraySize, newArray)
-
 }

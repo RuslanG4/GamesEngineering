@@ -16,3 +16,18 @@ Problem 1 : Given an integer array nums sorted in non-decreasing order, remove t
 2. -100 <= nums[i] <= 100
 3. nums is sorted in non-decreasing order.
 
+
+## Running and Installation Code
+To run the code do:
+> go run samples.go
+
+To run the tests do:
+> go test 
+
+or to see more output from the tests:
+> go test -v
+
+To install first create an executable with:
+> go build samples.go
+
+
