@@ -29,6 +29,31 @@ Problem 1 : Given an integer array nums sorted in non-decreasing order, remove t
 2. -100 <= nums[i] <= 100
 3. nums is sorted in non-decreasing order.
 
+##  Description:
+Problem 2 : Given a string, the program will convert the string to a decimal number. This is under the cicrumstance a valid roman numeral
+
+### Example 1:
+**Input**: romanNumeral = "MMCCCXXXIII" 
+**Output**: 2333
+
+### Example 2:
+**Input**: romanNumeral = "MCMXCIX" 
+**Output**: 1999
+
+### Example 3:
+**Input**: romanNumeral = "MMMCDXLIV" 
+**Output**: 3444
+
+ **Constraints:**  
+1.  <= s.length <= 15
+2. s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
+3. It is guaranteed that s is a valid roman numeral in the range [1, 3999].
+
+## Project Files
+1. **samples.go** source code for solution
+2. **Readme.md** this Readme file
+3. **removeDupes_test.go** code containing Unit Tests for remove duplicates code
+4. **romanNumerals_tests** code containing Unit Tests for roman numerals code
 
 ## Running and Installation Code
 To run the code do:
